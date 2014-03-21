@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56DC3D5118DBEF9F00B73325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC3D5018DBEF9F00B73325 /* Foundation.framework */; };
+		56DC3D5318DBEF9F00B73325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC3D5218DBEF9F00B73325 /* CoreGraphics.framework */; };
+		56DC3D5518DBEF9F00B73325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC3D5418DBEF9F00B73325 /* UIKit.framework */; };
+		56DC3D5B18DBEF9F00B73325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56DC3D5918DBEF9F00B73325 /* InfoPlist.strings */; };
+		56DC3D5D18DBEF9F00B73325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC3D5C18DBEF9F00B73325 /* main.m */; };
+		56DC3D6118DBEF9F00B73325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC3D6018DBEF9F00B73325 /* AppDelegate.m */; };
+		56DC3D6418DBEF9F00B73325 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DC3D6218DBEF9F00B73325 /* Main_iPhone.storyboard */; };
+		56DC3D6718DBEF9F00B73325 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DC3D6518DBEF9F00B73325 /* Main_iPad.storyboard */; };
+		56DC3D6A18DBEF9F00B73325 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC3D6918DBEF9F00B73325 /* ViewController.m */; };
+		56DC3D6C18DBEF9F00B73325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DC3D6B18DBEF9F00B73325 /* Images.xcassets */; };
+		56DC3D7318DBEF9F00B73325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC3D7218DBEF9F00B73325 /* XCTest.framework */; };
+		56DC3D7418DBEF9F00B73325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC3D5018DBEF9F00B73325 /* Foundation.framework */; };
+		56DC3D7518DBEF9F00B73325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC3D5418DBEF9F00B73325 /* UIKit.framework */; };
+		56DC3D7D18DBEF9F00B73325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56DC3D7B18DBEF9F00B73325 /* InfoPlist.strings */; };
+		56DC3D7F18DBEF9F00B73325 /* QuiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC3D7E18DBEF9F00B73325 /* QuiverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56DC3D7618DBEF9F00B73325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC3D4518DBEF9F00B73325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DC3D4C18DBEF9F00B73325;
+			remoteInfo = Quiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56DC3D4D18DBEF9F00B73325 /* Quiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DC3D5018DBEF9F00B73325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56DC3D5218DBEF9F00B73325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56DC3D5418DBEF9F00B73325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56DC3D5818DBEF9F00B73325 /* Quiver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiver-Info.plist"; sourceTree = "<group>"; };
+		56DC3D5A18DBEF9F00B73325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56DC3D5C18DBEF9F00B73325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56DC3D5E18DBEF9F00B73325 /* Quiver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiver-Prefix.pch"; sourceTree = "<group>"; };
+		56DC3D5F18DBEF9F00B73325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56DC3D6018DBEF9F00B73325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56DC3D6318DBEF9F00B73325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		56DC3D6618DBEF9F00B73325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		56DC3D6818DBEF9F00B73325 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56DC3D6918DBEF9F00B73325 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56DC3D6B18DBEF9F00B73325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56DC3D7118DBEF9F00B73325 /* QuiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DC3D7218DBEF9F00B73325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56DC3D7A18DBEF9F00B73325 /* QuiverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuiverTests-Info.plist"; sourceTree = "<group>"; };
+		56DC3D7C18DBEF9F00B73325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56DC3D7E18DBEF9F00B73325 /* QuiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuiverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DC3D4A18DBEF9F00B73325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC3D5318DBEF9F00B73325 /* CoreGraphics.framework in Frameworks */,
+				56DC3D5518DBEF9F00B73325 /* UIKit.framework in Frameworks */,
+				56DC3D5118DBEF9F00B73325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DC3D6E18DBEF9F00B73325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC3D7318DBEF9F00B73325 /* XCTest.framework in Frameworks */,
+				56DC3D7518DBEF9F00B73325 /* UIKit.framework in Frameworks */,
+				56DC3D7418DBEF9F00B73325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DC3D4418DBEF9F00B73325 = {
+			isa = PBXGroup;
+			children = (
+				56DC3D5618DBEF9F00B73325 /* Quiver */,
+				56DC3D7818DBEF9F00B73325 /* QuiverTests */,
+				56DC3D4F18DBEF9F00B73325 /* Frameworks */,
+				56DC3D4E18DBEF9F00B73325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56DC3D4E18DBEF9F00B73325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DC3D4D18DBEF9F00B73325 /* Quiver.app */,
+				56DC3D7118DBEF9F00B73325 /* QuiverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56DC3D4F18DBEF9F00B73325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DC3D5018DBEF9F00B73325 /* Foundation.framework */,
+				56DC3D5218DBEF9F00B73325 /* CoreGraphics.framework */,
+				56DC3D5418DBEF9F00B73325 /* UIKit.framework */,
+				56DC3D7218DBEF9F00B73325 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56DC3D5618DBEF9F00B73325 /* Quiver */ = {
+			isa = PBXGroup;
+			children = (
+				56DC3D5F18DBEF9F00B73325 /* AppDelegate.h */,
+				56DC3D6018DBEF9F00B73325 /* AppDelegate.m */,
+				56DC3D6218DBEF9F00B73325 /* Main_iPhone.storyboard */,
+				56DC3D6518DBEF9F00B73325 /* Main_iPad.storyboard */,
+				56DC3D6818DBEF9F00B73325 /* ViewController.h */,
+				56DC3D6918DBEF9F00B73325 /* ViewController.m */,
+				56DC3D6B18DBEF9F00B73325 /* Images.xcassets */,
+				56DC3D5718DBEF9F00B73325 /* Supporting Files */,
+			);
+			path = Quiver;
+			sourceTree = "<group>";
+		};
+		56DC3D5718DBEF9F00B73325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DC3D5818DBEF9F00B73325 /* Quiver-Info.plist */,
+				56DC3D5918DBEF9F00B73325 /* InfoPlist.strings */,
+				56DC3D5C18DBEF9F00B73325 /* main.m */,
+				56DC3D5E18DBEF9F00B73325 /* Quiver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56DC3D7818DBEF9F00B73325 /* QuiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				56DC3D7E18DBEF9F00B73325 /* QuiverTests.m */,
+				56DC3D7918DBEF9F00B73325 /* Supporting Files */,
+			);
+			path = QuiverTests;
+			sourceTree = "<group>";
+		};
+		56DC3D7918DBEF9F00B73325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DC3D7A18DBEF9F00B73325 /* QuiverTests-Info.plist */,
+				56DC3D7B18DBEF9F00B73325 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DC3D4C18DBEF9F00B73325 /* Quiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DC3D8218DBEF9F00B73325 /* Build configuration list for PBXNativeTarget "Quiver" */;
+			buildPhases = (
+				56DC3D4918DBEF9F00B73325 /* Sources */,
+				56DC3D4A18DBEF9F00B73325 /* Frameworks */,
+				56DC3D4B18DBEF9F00B73325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiver;
+			productName = Quiver;
+			productReference = 56DC3D4D18DBEF9F00B73325 /* Quiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56DC3D7018DBEF9F00B73325 /* QuiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DC3D8518DBEF9F00B73325 /* Build configuration list for PBXNativeTarget "QuiverTests" */;
+			buildPhases = (
+				56DC3D6D18DBEF9F00B73325 /* Sources */,
+				56DC3D6E18DBEF9F00B73325 /* Frameworks */,
+				56DC3D6F18DBEF9F00B73325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DC3D7718DBEF9F00B73325 /* PBXTargetDependency */,
+			);
+			name = QuiverTests;
+			productName = QuiverTests;
+			productReference = 56DC3D7118DBEF9F00B73325 /* QuiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DC3D4518DBEF9F00B73325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = WymzeeLabs;
+				TargetAttributes = {
+					56DC3D7018DBEF9F00B73325 = {
+						TestTargetID = 56DC3D4C18DBEF9F00B73325;
+					};
+				};
+			};
+			buildConfigurationList = 56DC3D4818DBEF9F00B73325 /* Build configuration list for PBXProject "Quiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DC3D4418DBEF9F00B73325;
+			productRefGroup = 56DC3D4E18DBEF9F00B73325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DC3D4C18DBEF9F00B73325 /* Quiver */,
+				56DC3D7018DBEF9F00B73325 /* QuiverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DC3D4B18DBEF9F00B73325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC3D6718DBEF9F00B73325 /* Main_iPad.storyboard in Resources */,
+				56DC3D6C18DBEF9F00B73325 /* Images.xcassets in Resources */,
+				56DC3D6418DBEF9F00B73325 /* Main_iPhone.storyboard in Resources */,
+				56DC3D5B18DBEF9F00B73325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DC3D6F18DBEF9F00B73325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC3D7D18DBEF9F00B73325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DC3D4918DBEF9F00B73325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC3D6A18DBEF9F00B73325 /* ViewController.m in Sources */,
+				56DC3D6118DBEF9F00B73325 /* AppDelegate.m in Sources */,
+				56DC3D5D18DBEF9F00B73325 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DC3D6D18DBEF9F00B73325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC3D7F18DBEF9F00B73325 /* QuiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56DC3D7718DBEF9F00B73325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DC3D4C18DBEF9F00B73325 /* Quiver */;
+			targetProxy = 56DC3D7618DBEF9F00B73325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56DC3D5918DBEF9F00B73325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DC3D5A18DBEF9F00B73325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56DC3D6218DBEF9F00B73325 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DC3D6318DBEF9F00B73325 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		56DC3D6518DBEF9F00B73325 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DC3D6618DBEF9F00B73325 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		56DC3D7B18DBEF9F00B73325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DC3D7C18DBEF9F00B73325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56DC3D8018DBEF9F00B73325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56DC3D8118DBEF9F00B73325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DC3D8318DBEF9F00B73325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiver/Quiver-Prefix.pch";
+				INFOPLIST_FILE = "Quiver/Quiver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56DC3D8418DBEF9F00B73325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiver/Quiver-Prefix.pch";
+				INFOPLIST_FILE = "Quiver/Quiver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56DC3D8618DBEF9F00B73325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quiver.app/Quiver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiver/Quiver-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuiverTests/QuiverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56DC3D8718DBEF9F00B73325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quiver.app/Quiver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiver/Quiver-Prefix.pch";
+				INFOPLIST_FILE = "QuiverTests/QuiverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DC3D4818DBEF9F00B73325 /* Build configuration list for PBXProject "Quiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC3D8018DBEF9F00B73325 /* Debug */,
+				56DC3D8118DBEF9F00B73325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DC3D8218DBEF9F00B73325 /* Build configuration list for PBXNativeTarget "Quiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC3D8318DBEF9F00B73325 /* Debug */,
+				56DC3D8418DBEF9F00B73325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56DC3D8518DBEF9F00B73325 /* Build configuration list for PBXNativeTarget "QuiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC3D8618DBEF9F00B73325 /* Debug */,
+				56DC3D8718DBEF9F00B73325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DC3D4518DBEF9F00B73325 /* Project object */;
+}
